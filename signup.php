@@ -158,4 +158,4 @@ unset($_SESSION['errors']);
       <!-- page-body-wrapper ends -->
     </div>
 
-    <?php include "
+    <?php include "footer.php" ?>

@@ -91,4 +91,5 @@ if(mysqli_num_rows($result)>0){
         </div>
     </section>
 
-
+
+    <?php include 'footer.php' ?>
