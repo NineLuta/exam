@@ -10,7 +10,7 @@ include "navbar.php";
 
 
 <?php
-echo "herf";
+
 if (isset($_POST['Signup'])) {
   
   $name=htmlspecialchars(trim($_POST["username"]));  
