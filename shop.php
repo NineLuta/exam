@@ -5,11 +5,20 @@
     require_once "inc/conn.php";
 
 
-if(isset($_POST["add"])){
-    $quantity= $_POST["quantity"];
-    $product_id= $_POST["product_id"];
-    
-}
+    if(isset($_POST["add"])){
+        $quantity= $_POST["quantity"];
+        $product_id= $_POST["product_id"];
+       
+        if (!empty($quantity)){
+            header(("location:cart.php"));
+
+        }
+       
+
+
+
+
+    }
 
 
 
